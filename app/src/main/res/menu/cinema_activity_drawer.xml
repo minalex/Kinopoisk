@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Все жанры" >
+            <menu>
+            <item
+                android:id="@+id/filmsortbyrating"
+                android:title="Все жанры по рейтингу" />
+            </menu>
+        </item>
+
+        <item
+
+            android:title="Жанры" >
+            <menu>
+                <item
+                    android:id="@+id/nav_biography"
+                    android:title="Биография" />
+                <item
+                    android:id="@+id/nav_boevik"
+                    android:title="Боевик" />
+                <item
+                    android:id="@+id/nav_vestern"
+                    android:title="Вестерн" />
+                <item
+                    android:id="@+id/nav_voen"
+                    android:title="Военный" />
+                <item
+                    android:id="@+id/nav_detective"
+                    android:title="Детектив" />
+                <item
+                    android:id="@+id/nav_child"
+                    android:title="Детский" />
+                <item
+                    android:id="@+id/nav_documental"
+                    android:title="Документальный" />
+                <item
+                    android:id="@+id/nav_drama"
+                    android:title="Драма" />
+                <item
+                    android:id="@+id/nav_comedy"
+                    android:title="Комедия" />
+                <item
+                    android:id="@+id/nav_shortfilm"
+                    android:title="Короткометражка" />
+                <item
+                    android:id="@+id/nav_crime"
+                    android:title="Криминал" />
+                <item
+                    android:id="@+id/nav_melo"
+                    android:title="Мелодрама" />
+                <item
+                    android:id="@+id/nav_music"
+                    android:title="Музыка" />
+                <item
+                    android:id="@+id/nav_cartoon"
+                    android:title="Мультфильм" />
+                <item
+                    android:id="@+id/nav_musicle"
+                    android:title="Мюзикл" />
+                <item
+                    android:id="@+id/nav_advernture"
+                    android:title="Приключения" />
+                <item
+                    android:id="@+id/nav_family"
+                    android:title="Семейный" />
+                <item
+                    android:id="@+id/nav_triller"
+                    android:title="Триллер" />
+                <item
+                    android:id="@+id/nav_horror"
+                    android:title="Ужасы" />
+                <item
+                    android:id="@+id/nav_fantastic"
+                    android:title="Фантастика" />
+                <item
+                    android:id="@+id/nav_fantasy"
+                    android:title="Фэнтези" />
+            </menu>
+        </item>
+    </group>
+</menu>
